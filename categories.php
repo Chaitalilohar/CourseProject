@@ -1,5 +1,5 @@
 <?php
-include ' header.php';
+include 'header.php';
 $q="select * from Categories where is_disabled=0";
 $result=mysqli_query($conn,$q);
 ?>
@@ -29,9 +29,9 @@ $result=mysqli_query($conn,$q);
           </thead>
           <tbody>
                 
-            <?php $number=1;
+            <?php 
             while($cat=mysqli_fetch_assoc($result)){
-                echo " <;>  <td>".$cat['cat_id']."</td>
+                echo " <tr> <td>".$cat['cat_id']."</td>
                 <td>".$cat['name']."</td>
                 <td>".$cat['Price']."</td>
                 <td><a onclick=\" return confirm('Are you sure want to update Course??')\"  class='text-primary' href='course-self-update.php?cat_id=".$cat['cat_id']."'>Update</a></td>

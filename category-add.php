@@ -10,10 +10,13 @@ include 'header.php';
                 <div class="card-body">
                   <form action="category-add-save.php" method="post">
                     <div class="mb-3">
-                      <label for="exampleInputEmail1" class="form-label"> Enter Category</label>
+                      <label for="" class="form-label"> Enter Category</label>
                       <input name="name" type="text" class="form-control">
                     </div>
-                                   
+                    <div class="mb-3">
+                      <label for="" class="form-label"> Enter Price:</label>
+                      <input name="price" type="number" placeholder="Enter Price" class="form-control">
+                    </div>               
                     <button type="submit" class="btn btn-primary">Submit</button>
                   </form>
                 </div>

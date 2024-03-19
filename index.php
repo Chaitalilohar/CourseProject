@@ -1,4 +1,4 @@
-<?php 
+<?php
 include 'header.php';
 $date=date('Y-m-d');
 
@@ -79,8 +79,7 @@ $result=mysqli_query($conn,$query);
                             class="me-2 rounded-circle bg-light-danger round-20 d-flex align-items-center justify-content-center">
                             <i class="ti ti-arrow-down-right text-danger"></i>
                           </span>
-                          <p class="text-dark me-1 fs-3 mb-0">+9%</p>
-                          <p class="fs-3 mb-0">last year</p>
+                          <p class="fs-3 mb-0">February 2024</p>
                         </div>
                       </div>
                       <div class="col-4">
@@ -115,16 +114,16 @@ $result=mysqli_query($conn,$query);
                             <i class="ti ti-arrow-up-left text-success"></i>
                           </span>
                           <p class="text-dark me-1 fs-3 mb-0">+9%</p>
-                          <p class="fs-3 mb-0">last year</p>
+                          <p class="fs-3 mb-0">Current year</p>
                         </div>
                         <div class="d-flex align-items-center">
                           <div class="me-4">
                             <span class="round-8 bg-primary rounded-circle me-2 d-inline-block"></span>
-                            <span class="fs-2">2023</span>
+                            <span class="fs-2">2024</span>
                           </div>
                           <div>
                             <span class="round-8 bg-light-primary rounded-circle me-2 d-inline-block"></span>
-                            <span class="fs-2">2023</span>
+                            <span class="fs-2">2024</span>
                           </div>
                         </div>
                       </div>
